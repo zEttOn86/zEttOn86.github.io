@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Learning Notes</title>
+    <link>https://zEttOn86.github.io/tags/</link>
+    <description>Recent content in Tags on Learning Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>2019, zEttOn86 - All rights reserved</copyright>
+    <lastBuildDate>Tue, 31 Dec 2019 19:46:15 +0900</lastBuildDate>
+    
+	<atom:link href="https://zEttOn86.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First post</title>
+      <link>https://zEttOn86.github.io/tags/first-post/</link>
+      <pubDate>Tue, 31 Dec 2019 19:46:15 +0900</pubDate>
+      
+      <guid>https://zEttOn86.github.io/tags/first-post/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

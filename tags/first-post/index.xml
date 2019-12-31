@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>First post on Learning Notes</title>
+    <link>https://zEttOn86.github.io/tags/first-post/</link>
+    <description>Recent content in First post on Learning Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>2019, zEttOn86 - All rights reserved</copyright>
+    <lastBuildDate>Tue, 31 Dec 2019 19:46:15 +0900</lastBuildDate>
+    
+	<atom:link href="https://zEttOn86.github.io/tags/first-post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>はじめに</title>
+      <link>https://zEttOn86.github.io/blog/20191231/</link>
+      <pubDate>Tue, 31 Dec 2019 19:46:15 +0900</pubDate>
+      
+      <guid>https://zEttOn86.github.io/blog/20191231/</guid>
+      <description>&lt;h3 id=&#34;heading&#34;&gt;ブログ始めました．&lt;/h3&gt;
+&lt;p&gt;ただ勉強するだけではもったいないと感じたので，学んだことや感想などを書いていきたいです．&lt;/p&gt;
+&lt;h3 id=&#34;heading-1&#34;&gt;実装したい機能&lt;/h3&gt;
+&lt;p&gt;今後は，以下のような機能を実装する予定です．&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,218 @@
+.sidebar {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.sidebar .sidebar-heading {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    background: none;
+    padding: 0;
+    letter-spacing: 0.08em;
+    border-bottom: none;
+}
+.sidebar .sidebar-heading h1,
+.sidebar .sidebar-heading h2,
+.sidebar .sidebar-heading h3,
+.sidebar .sidebar-heading h4,
+.sidebar .sidebar-heading h5 {
+  display: inline-block;
+  /* border-bottom: solid 2px #00ab6b; */
+  line-height: 1.1;
+  margin-bottom: 0;
+  padding-bottom: 0px;
+  /* font-size: px; */
+  text-transform: none;
+}
+
+.sidebar .sidebar-body{
+    padding: 0px;
+}
+.sidebar .sidebar-body{
+  padding: 0px;
+}
+
+.sidebar .sidebar-body ul.archive-cloud li{
+  line-height: 1.5;
+  padding-left: 15px;
+  position: relative;
+  list-style-type: none!important;
+}
+
+.sidebar .sidebar-body ul.archive-cloud li a {
+  color: rgba(0, 0, 0, .5);
+}
+.sidebar .sidebar-body ul.archive-cloud li a:hover {
+  color: #00ab6b;
+  text-decoration: none;
+}
+
+.sidebar .sidebar-body ul.archive-cloud li:before{
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 0;
+  height: 0;
+  margin-top: -5px;
+  border-top: 5px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 6px solid rgba(0, 0, 0, .5);
+}
+
+  .sidebar .sidebar-body ul.tag-cloud li {
+    display: inline-block;
+  }
+  .sidebar .sidebar-body ul.tag-cloud li a {
+    display: inline-block;
+    padding: 5px;
+    border: solid 1px #eeeeee;
+    border-radius: 0;
+    color: rgba(0, 0, 0, .5);
+    margin: 5px 5px 5px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 700;
+    font-size: 12px;
+  }
+  .sidebar .sidebar-body ul.tag-cloud li a:hover {
+    color: #00ab6b;
+    text-decoration: none;
+    border-color: #00ab6b;
+  }
+
+.sidebar .form-group{
+    margin-bottom: 10px;
+    position: relative;
+
+}
+.sidebar .form-group .form-control{
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    border-radius: 4px;
+    padding-right: 42.5px;
+}
+.sidebar .form-group .form-control-feedback{
+    top: 6px;
+    right: 0px;
+    /* padding: 6px 12px; */
+    position: absolute;
+    display: block;
+    width: 34px;
+    height: 34px;
+    /* line-height: 34px; */
+    text-align: center;
+    pointer-events: none;
+}
+
+.btn {
+    font-weight: 700;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 6px 12px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    border-radius: 0;
+  }
+  .btn-template-main {
+    color: rgba(0, 0, 0, .5);
+    background-color: #ffffff;
+    border-color: rgba(0, 0, 0, .5);
+  }
+  .btn-template-main:hover,
+.btn-template-main:focus,
+.btn-template-main:active,
+.btn-template-main.active,
+.open > .dropdown-toggle.btn-template-main {
+  color: #00ab6b;
+  background-color: #e6e6e6;
+  border-color: #00ab6b;
+}
+.btn-template-main:active,
+.btn-template-main.active,
+.open > .dropdown-toggle.btn-template-main {
+  background-image: none;
+}
+.btn-template-main.disabled,
+.btn-template-main[disabled],
+fieldset[disabled] .btn-template-main,
+.btn-template-main.disabled:hover,
+.btn-template-main[disabled]:hover,
+fieldset[disabled] .btn-template-main:hover,
+.btn-template-main.disabled:focus,
+.btn-template-main[disabled]:focus,
+fieldset[disabled] .btn-template-main:focus,
+.btn-template-main.disabled:active,
+.btn-template-main[disabled]:active,
+fieldset[disabled] .btn-template-main:active,
+.btn-template-main.disabled.active,
+.btn-template-main[disabled].active,
+fieldset[disabled] .btn-template-main.active {
+  background-color: #ffffff;
+  border-color: #00ab6b;
+}
+.btn-template-main .badge {
+  color: #ffffff;
+  background-color: #00ab6b;
+}
+.btn-template-main:hover,
+.btn-template-main:focus,
+.btn-template-main:active,
+.btn-template-main.active {
+  background: #00ab6b;
+  color: #ffffff;
+  border-color: #00ab6b;
+}
+
+span.lastmod{
+  display: inline-block;
+  color: rgba(0, 0, 0, .44);
+}
+span.lastmod i{
+  margin-right: .5em;
+}
+span.lastmod li{
+  list-style-type: none!important;
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+#TableOfContents > ul {
+  font-size: smaller;
+  border-radius: 0.5em;
+  border: solid 1px lightgray;
+  padding: 0.5em 1em;
+  line-height: 2;
+  font-size: 0.9rem;
+}
+#TableOfContents > ul:before {
+  content: "目次";
+  font-weight: bolder;
+}
+#TableOfContents ul {
+  list-style-type: none;
+}
+#TableOfContents li {
+  padding-top: 0;
+}
+#TableOfContents li > ul {
+  padding-left: 1em;
+  width: 100%;
+}
+#TableOfContents a {
+  font-weight: normal;
+  display: block;
+  border-bottom: dashed 1px lightgray;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
