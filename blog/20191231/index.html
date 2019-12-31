@@ -12,20 +12,20 @@
 
 	<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="はじめに"/>
-<meta name="twitter:description" content="ブログ始めました．
+<meta name="twitter:description" content="ブログを始めました
 ただ勉強するだけではもったいないと感じたので，学んだことや感想などを書いていきたいです．
 実装したい機能
 今後は，以下のような機能を実装する予定です．"/>
 
 	<meta property="og:title" content="はじめに" />
-<meta property="og:description" content="ブログ始めました．
+<meta property="og:description" content="ブログを始めました
 ただ勉強するだけではもったいないと感じたので，学んだことや感想などを書いていきたいです．
 実装したい機能
 今後は，以下のような機能を実装する予定です．" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://zEttOn86.github.io/blog/20191231/" />
 <meta property="article:published_time" content="2019-12-31T19:46:15+09:00" />
-<meta property="article:modified_time" content="2019-12-31T21:32:36+09:00" />
+<meta property="article:modified_time" content="2019-12-31T22:08:23+09:00" />
 
 
 	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -35,7 +35,34 @@
 	<link href="https://zEttOn86.github.io/css/medium.css" rel="stylesheet">
 	<link href="https://zEttOn86.github.io/css/additional.css" rel="stylesheet">
 	<link href="https://zEttOn86.github.io/css/custom.css" rel="stylesheet">
+	<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+  });
+  MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
 
+  MathJax.Hub.Config({
+  
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+  });
+</script>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
@@ -146,7 +173,7 @@
   <ul>
     <li>
       <ul>
-        <li><a href="#heading">ブログ始めました．</a></li>
+        <li><a href="#heading">ブログを始めました</a></li>
         <li><a href="#heading-1">実装したい機能</a></li>
       </ul>
     </li>
@@ -154,12 +181,12 @@
 </nav>
                     
                     <div class="article-post">
-                        <h3 id="heading">ブログ始めました．</h3>
+                        <h3 id="heading">ブログを始めました</h3>
 <p>ただ勉強するだけではもったいないと感じたので，学んだことや感想などを書いていきたいです．</p>
 <h3 id="heading-1">実装したい機能</h3>
 <p>今後は，以下のような機能を実装する予定です．</p>
 <ul>
-<li><input disabled="" type="checkbox">数式</li>
+<li><input checked="" disabled="" type="checkbox"><a href="https://divadnojnarg.github.io/blog/mathjax/">数式</a></li>
 <li><input checked="" disabled="" type="checkbox">google analytics</li>
 <li><input checked="" disabled="" type="checkbox">disqus</li>
 <li><input disabled="" type="checkbox">ブログのレイアウトの変更</li>
