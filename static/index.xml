@@ -1,27 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Learning Notes</title>
-    <link>https://zEttOn86.github.io/</link>
-    <description>Recent content on Learning Notes</description>
+    <title>Statics on Learning Notes</title>
+    <link>https://zEttOn86.github.io/static/</link>
+    <description>Recent content in Statics on Learning Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>2019-2020, zEttOn86 - All rights reserved</copyright>
-    <lastBuildDate>Tue, 31 Dec 2019 19:46:15 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 31 Dec 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://zEttOn86.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zEttOn86.github.io/static/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>はじめに</title>
-      <link>https://zEttOn86.github.io/blog/20191231/</link>
-      <pubDate>Tue, 31 Dec 2019 19:46:15 +0900</pubDate>
-      
-      <guid>https://zEttOn86.github.io/blog/20191231/</guid>
-      <description>&lt;h3 id=&#34;heading&#34;&gt;ブログを始めました&lt;/h3&gt;
-&lt;p&gt;ただ勉強するだけではもったいないと感じたので，学んだことや感想などを書いていきたいです．&lt;/p&gt;
-&lt;h3 id=&#34;heading-1&#34;&gt;実装したい機能&lt;/h3&gt;
-&lt;p&gt;今後は，以下のような機能を実装する予定です．&lt;/p&gt;</description>
-    </item>
     
     <item>
       <title>プライバシーポリシー</title>
@@ -39,17 +27,6 @@ Cookieによる個人情報の取得 当サイトは，訪問者のコンピュ�
 Cookie（クッキー）とは，ウェブサイトを利用したときに，ブラウザとサーバーとの間で送受信した利用履歴や入力内容などを，訪問者のコンピュータにファイルとして保存しておく仕組みです．
 利用目的について 訪問者の当サイト閲覧時の利便性を高めるためです．
 たとえば，次回同じページにアクセスするとCookieの情報を使って，ページの運営者は訪問者ごとに表示を変えることができます．</description>
-    </item>
-    
-    <item>
-      <title>プロフィール</title>
-      <link>https://zEttOn86.github.io/about/</link>
-      <pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://zEttOn86.github.io/about/</guid>
-      <description>目的 ただ勉強していくのはもったいないと感じたので，勉強したことや思ったことなどを書いていこうと思います．
-投稿内容は私個人の意見であり，所属する組織などを代表するものではありません．
-興味があるもの/好きなもの </description>
     </item>
     
     <item>
