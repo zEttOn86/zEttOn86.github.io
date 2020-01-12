@@ -1,27 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Blogs on Learning Notes</title>
-    <link>https://zEttOn86.github.io/blog/</link>
-    <description>Recent content in Blogs on Learning Notes</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>2019-2020, zEttOn86 - All rights reserved</copyright>
-    <lastBuildDate>Tue, 31 Dec 2019 19:46:15 +0900</lastBuildDate>
-    
-	<atom:link href="https://zEttOn86.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>はじめに</title>
-      <link>https://zEttOn86.github.io/blog/20191231/</link>
-      <pubDate>Tue, 31 Dec 2019 19:46:15 +0900</pubDate>
-      
-      <guid>https://zEttOn86.github.io/blog/20191231/</guid>
-      <description>&lt;h3 id=&#34;heading&#34;&gt;ブログを始めました&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blogs on Learning Notes</title><link>https://zEttOn86.github.io/blog/</link><description>Recent content in Blogs on Learning Notes</description><generator>Hugo -- gohugo.io</generator><copyright>2019-2020, zEttOn86 - All rights reserved</copyright><lastBuildDate>Fri, 10 Jan 2020 19:32:21 +0900</lastBuildDate><atom:link href="https://zEttOn86.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>HUGO &#43; GitHub Pages を用いたウェブサイトの構築方法</title><link>https://zEttOn86.github.io/blog/20200110/</link><pubDate>Fri, 10 Jan 2020 19:32:21 +0900</pubDate><guid>https://zEttOn86.github.io/blog/20200110/</guid><description>&lt;p&gt;HUGOとGithub Pagesを用いたウェブサイトの構築方法についてまとめていきたいと思います．&lt;/p&gt;
+&lt;h3 id=&#34;開発環境&#34;&gt;開発環境&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows10 Pro&lt;/li&gt;
+&lt;li&gt;CPU:&lt;/li&gt;
+&lt;li&gt;RAM: 8GB&lt;/li&gt;
+&lt;li&gt;Chocolatey v0.10.15&lt;/li&gt;
+&lt;li&gt;Hugo Static Site Generator v0.59.1-D5DAB232 windows/amd64 BuildDate: 2019-10-31T15:22:43Z&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>はじめに</title><link>https://zEttOn86.github.io/blog/20191231/</link><pubDate>Tue, 31 Dec 2019 19:46:15 +0900</pubDate><guid>https://zEttOn86.github.io/blog/20191231/</guid><description>&lt;h3 id=&#34;ブログを始めました&#34;&gt;ブログを始めました&lt;/h3&gt;
 &lt;p&gt;ただ勉強するだけではもったいないと感じたので，学んだことや感想などを書いていきたいです．&lt;/p&gt;
-&lt;h3 id=&#34;heading-1&#34;&gt;実装したい機能&lt;/h3&gt;
-&lt;p&gt;今後は，以下のような機能を追加する予定です．&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;h3 id=&#34;実装したい機能&#34;&gt;実装したい機能&lt;/h3&gt;
+&lt;p&gt;今後は，以下のような機能を追加する予定です．&lt;/p&gt;</description></item></channel></rss>
