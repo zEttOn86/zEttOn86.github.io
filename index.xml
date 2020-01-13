@@ -1,25 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Learning Notes</title><link>https://zEttOn86.github.io/</link><description>Recent content on Learning Notes</description><generator>Hugo -- gohugo.io</generator><copyright>2019-2020, zEttOn86 - All rights reserved</copyright><lastBuildDate>Fri, 10 Jan 2020 19:32:21 +0900</lastBuildDate><atom:link href="https://zEttOn86.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>HUGO &#43; GitHub Pages を用いたウェブサイトの構築方法</title><link>https://zEttOn86.github.io/blog/20200110/</link><pubDate>Fri, 10 Jan 2020 19:32:21 +0900</pubDate><guid>https://zEttOn86.github.io/blog/20200110/</guid><description>&lt;h3 id=&#34;はじめに&#34;&gt;はじめに&lt;/h3&gt;
-&lt;p&gt;HUGOとGithub Pagesを用いたウェブサイトの構築方法についてまとめていきたいと思います．&lt;/p&gt;
-&lt;h3 id=&#34;開発環境&#34;&gt;開発環境&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Windows10 Pro&lt;/li&gt;
-&lt;li&gt;CPU:&lt;/li&gt;
-&lt;li&gt;RAM: 8GB&lt;/li&gt;
-&lt;li&gt;Chocolatey v0.10.15&lt;/li&gt;
-&lt;li&gt;Hugo Static Site Generator v0.59.1-D5DAB232 windows/amd64 BuildDate: 2019-10-31T15:22:43Z&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>はじめに</title><link>https://zEttOn86.github.io/blog/20191231/</link><pubDate>Tue, 31 Dec 2019 19:46:15 +0900</pubDate><guid>https://zEttOn86.github.io/blog/20191231/</guid><description>&lt;h3 id=&#34;ブログを始めました&#34;&gt;ブログを始めました&lt;/h3&gt;
-&lt;p&gt;ただ勉強するだけではもったいないと感じたので，学んだことや感想などを書いていきたいです．&lt;/p&gt;
-&lt;h3 id=&#34;実装したい機能&#34;&gt;実装したい機能&lt;/h3&gt;
-&lt;p&gt;今後は，以下のような機能を追加する予定です．&lt;/p&gt;</description></item><item><title>プライバシーポリシー</title><link>https://zEttOn86.github.io/static/privacy-policy/</link><pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate><guid>https://zEttOn86.github.io/static/privacy-policy/</guid><description>当サイト利用について 本プライバシーポリシーは，このWebサイト(https://zEttOn86.github.io/）（以下，「当サイト」とします．)の各種サービス（当サイトによる情報提供，各種お問合せの受付等）において，当サイトの訪問者（以下，「訪問者」とします．）の個人情報もしくはそれに準ずる情報を取り扱う際に，当サイトが遵守する方針を示したものです．
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Learning Notes</title><link>https://zEttOn86.github.io/</link><description>Recent content on Learning Notes</description><generator>Hugo -- gohugo.io</generator><copyright>2019-2020, zEttOn86 - All rights reserved</copyright><lastBuildDate>Tue, 14 Jan 2020 00:19:33 +0900</lastBuildDate><atom:link href="https://zEttOn86.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>HUGO + GitHub Pages で作ったブログをGoogle Search Consoleに登録する方法</title><link>https://zEttOn86.github.io/blog/20200114/</link><pubDate>Tue, 14 Jan 2020 00:19:33 +0900</pubDate><guid>https://zEttOn86.github.io/blog/20200114/</guid><description>はじめに HUGOとGitHub Pagesで作ったブログは，Google検索でsite:&amp;lt;自分のブログのURL&amp;gt;のように検索してもGoogle検索にはすぐには引っ掛かりません． そこで，作成したブログをGoogle検索で引っ掛かるようにするために，Google Search Consoleに登録する方法をまとめます．
+必要なもの Google アカウント 登録の手順 Googleアカウントは持っている前提で話を進めていきます．また，登録するURLは&amp;lt;ユーザ名&amp;gt;.github.ioとし，作ったブログにはGoogle Analyticsが導入済みとします．
+基本的には，指示に従っていれば大丈夫なようです．
+Google Search Cosoleへの登録 Google Search Consoleのサイトに接続し，プロパティタイプを選択します． 私の場合，URLプレフィックスのほうにhttps://zEttOn86.github.io/と入力します． 選択すると，以下のようなポップアップが出てくると思います． ブログにHTMLタグの追加（所有権の確認） Google Search Consoleの左のバーから設定をクリックし，所有権の確認をクリックします． そうするとその他の確認方法の項目は以下のようになっていると思います． 今回は，HTMLタグを追加する方法でやっていきます．</description></item><item><title>HUGO + GitHub Pages を用いたウェブサイトの構築方法</title><link>https://zEttOn86.github.io/blog/20200110/</link><pubDate>Fri, 10 Jan 2020 19:32:21 +0900</pubDate><guid>https://zEttOn86.github.io/blog/20200110/</guid><description>&lt;h3 id="heading">はじめに&lt;/h3>
+&lt;p>HUGOとGithub Pagesを用いたウェブサイトの構築方法についてまとめていきたいと思います．&lt;/p>
+&lt;h3 id="heading-1">開発環境&lt;/h3>
+&lt;ul>
+&lt;li>Windows10 Pro&lt;/li>
+&lt;li>CPU: Core i7-3610QM @2.30GHz&lt;/li>
+&lt;li>RAM: 8GB&lt;/li>
+&lt;li>Chocolatey v0.10.15&lt;/li>
+&lt;li>Hugo Static Site Generator v0.59.1-D5DAB232 windows/amd64 BuildDate: 2019-10-31T15:22:43Z&lt;/li>
+&lt;/ul></description></item><item><title>はじめに</title><link>https://zEttOn86.github.io/blog/20191231/</link><pubDate>Tue, 31 Dec 2019 19:46:15 +0900</pubDate><guid>https://zEttOn86.github.io/blog/20191231/</guid><description>&lt;h3 id="heading">ブログを始めました&lt;/h3>
+&lt;p>ただ勉強するだけではもったいないと感じたので，学んだことや感想などを書いていきたいです．&lt;/p>
+&lt;h3 id="heading-1">実装したい機能&lt;/h3>
+&lt;p>今後は，以下のような機能を追加する予定です．&lt;/p></description></item><item><title>プライバシーポリシー</title><link>https://zEttOn86.github.io/static/privacy-policy/</link><pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate><guid>https://zEttOn86.github.io/static/privacy-policy/</guid><description>当サイト利用について 本プライバシーポリシーは，このWebサイト(https://zEttOn86.github.io/）（以下，「当サイト」とします．)の各種サービス（当サイトによる情報提供，各種お問合せの受付等）において，当サイトの訪問者（以下，「訪問者」とします．）の個人情報もしくはそれに準ずる情報を取り扱う際に，当サイトが遵守する方針を示したものです．
 基本方針 当サイトは，個人情報の重要性を認識し，個人情報を保護することが社会的責務であると考え，個人情報に関する法令を遵守し，当サイトで取扱う個人情報の取得，利用，管理を適正に行います．当サイトで収集した情報は，利用目的の範囲内で適切に取り扱います．
 適用範囲 本プライバシーポリシーは，当サイトにおいてのみ適用されます．
 個人情報の取得と利用目的 当サイトで取得する訪問者の個人情報と利用目的等は下記の通りです．
-コメントを残した際の個人情報の取得 当サイトでは，訪問者が当サイトにコメントを残した際に，以下の個人情報を取得します． - コメントフォームに表示されている名前（HN） - コメントフォームに表示されているメールアドレス - コメントフォームに表示されているコメント内容 - コメントフォームに表示されているサイト名（任意項目） - IPアドレス
-利用目的について 荒し対策やスパム検出に役立てるためと，訪問者の利便性のためです．また，当サイト内で「訪問者からこのようなコメントがありました」と紹介させていただく場合もあります．
-Cookieによる個人情報の取得 当サイトは，訪問者のコンピュータにCookieを送信することがあります．</description></item><item><title>プロフィール</title><link>https://zEttOn86.github.io/about/</link><pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate><guid>https://zEttOn86.github.io/about/</guid><description> 目的 ただ勉強していくのはもったいないと感じたので，勉強したことや思ったことなどを書いていこうと思います．
+コメントを残した際の個人情報の取得 当サイトでは，訪問者が当サイトにコメントを残した際に，以下の個人情報を取得します．
+コメントフォームに表示されている名前（HN） コメントフォームに表示されているメールアドレス コメントフォームに表示されているコメント内容 コメントフォームに表示されているサイト名（任意項目） IPアドレス 利用目的について 荒し対策やスパム検出に役立てるためと，訪問者の利便性のためです．また，当サイト内で「訪問者からこのようなコメントがありました」と紹介させていただく場合もあります．
+Cookieによる個人情報の取得 当サイトは，訪問者のコンピュータにCookieを送信することがあります．
+Cookie（クッキー）とは，ウェブサイトを利用したときに，ブラウザとサーバーとの間で送受信した利用履歴や入力内容などを，訪問者のコンピュータにファイルとして保存しておく仕組みです．
+利用目的について 訪問者の当サイト閲覧時の利便性を高めるためです．
+たとえば，次回同じページにアクセスするとCookieの情報を使って，ページの運営者は訪問者ごとに表示を変えることができます．</description></item><item><title>プロフィール</title><link>https://zEttOn86.github.io/about/</link><pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate><guid>https://zEttOn86.github.io/about/</guid><description>目的 ただ勉強していくのはもったいないと感じたので，勉強したことや思ったことなどを書いていこうと思います．
 投稿内容は私個人の意見であり，所属する組織などを代表するものではありません．
 開発環境 以下の環境で，ブログの執筆などを行っています．
-Windows 10 Pro CPU: RAM: 8GB Hugo Static Site Generator v0.59.1-D5DAB232 windows/amd64 BuildDate: 2019-10-31T15:22:43Z</description></item><item><title>免責事項</title><link>https://zEttOn86.github.io/static/disclaimers/</link><pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate><guid>https://zEttOn86.github.io/static/disclaimers/</guid><description>当サイト利用について このWebサイト( https://zEttOn86.github.io/ ) (以下，当サイトとします．)における免責事項は，下記の通りです．
+Windows 10 Pro CPU: Core i7-3610QM @2.30GHz RAM: 8GB Hugo Static Site Generator v0.59.1-D5DAB232 windows/amd64 BuildDate: 2019-10-31T15:22:43Z</description></item><item><title>免責事項</title><link>https://zEttOn86.github.io/static/disclaimers/</link><pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate><guid>https://zEttOn86.github.io/static/disclaimers/</guid><description>当サイト利用について このWebサイト( https://zEttOn86.github.io/ ) (以下，当サイトとします．)における免責事項は，下記の通りです．
 コメントについて 次の各号に掲げる内容を含むコメントは，当サイト管理人の裁量によって承認せず，削除する事があります．
 特定の自然人または法人を誹謗し，中傷するもの 極度にわいせつな内容を含むもの 禁制品の取引に関するものや，他者を害する行為の依頼など，法律によって禁止されている物品，行為の依頼や斡旋などに関するもの その他，公序良俗に反し，または管理人によって承認すべきでないと認められるもの 当サイトの情報の正確性について 当サイトのコンテンツや情報において，可能な限り正確な情報を掲載するよう努めています．しかし，誤情報が入り込んだり，情報が古くなったりすることもあります．必ずしも正確性を保証するものではありません．また合法性や安全性なども保証しません．
 損害等の責任について 当サイトに掲載された内容によって生じた損害等の一切の責任を負いかねますので，ご了承ください．
@@ -27,4 +33,5 @@ Windows 10 Pro CPU: RAM: 8GB Hugo Static Site Generator v0.59.1-D5DAB232 windows
 当サイトの保守，火災，停電，その他の自然災害，ウィルスや第三者の妨害等行為による不可抗力によって，当サイトによるサービスが停止したことに起因して利用者に生じた損害についても，何ら責任を負うものではありません．
 当サイトを利用する場合は，自己責任で行う必要があります．
 著作権について 当サイトで掲載している画像の著作権や肖像権等は，各権利所有者に帰属します．万が一問題がある場合は，コメント欄などよりご連絡いただけますよう宜しくお願い致します．
-無断転載の禁止について 当サイトに存在する，文章や画像，動画等の著作物の情報を無断転載することを禁止します．引用の範囲を超えるものについては，法的処置を行います．転載する際には，コメント欄などよりご連絡いただけますよう宜しくお願い致します．</description></item></channel></rss>
+無断転載の禁止について 当サイトに存在する，文章や画像，動画等の著作物の情報を無断転載することを禁止します．引用の範囲を超えるものについては，法的処置を行います．転載する際には，コメント欄などよりご連絡いただけますよう宜しくお願い致します．
+2020/01/01 策定</description></item></channel></rss>

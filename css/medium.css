@@ -686,17 +686,31 @@ h6 {
 .article-post .h1,
 .article-post .h2,
 .article-post .h3,
+.article-post h1,
+.article-post h2,
+.article-post h3 {
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    padding: 0.4em 0.5em;/*文字の上下 左右の余白*/
+    color: #494949;/*文字色*/
+    background: #effffb;/*背景色*/
+    border-left: solid 5px #00ab6b;/*左線*/
+    border-bottom: solid 3px #d5e4e0;/*下線*/
+}
+
 .article-post .h4,
 .article-post .h5,
 .article-post .h6,
-.article-post h1,
-.article-post h2,
-.article-post h3,
 .article-post h4,
 .article-post h5,
 .article-post h6 {
     font-weight: 700;
     margin-bottom: 1.5rem;
+    padding: 0.1em 0.5em;/*文字の上下 左右の余白*/
+    color: #494949;/*文字色*/
+    /* background: #effffb;背景色 */
+    /* border-left: solid 5px #00ab6b;左線 */
+    border-bottom: solid 3px #d5e4e0;/*下線*/
 }
 
 .article-post img.shadow {
