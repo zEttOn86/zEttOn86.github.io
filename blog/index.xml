@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blogs on Learning Notes</title><link>https://zEttOn86.github.io/blog/</link><description>Recent content in Blogs on Learning Notes</description><generator>Hugo -- gohugo.io</generator><copyright>2019-2020, zEttOn86 - All rights reserved</copyright><lastBuildDate>Tue, 14 Jan 2020 00:19:33 +0900</lastBuildDate><atom:link href="https://zEttOn86.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>HUGO + GitHub Pages で作ったブログをGoogle Search Consoleに登録する方法</title><link>https://zEttOn86.github.io/blog/20200114/</link><pubDate>Tue, 14 Jan 2020 00:19:33 +0900</pubDate><guid>https://zEttOn86.github.io/blog/20200114/</guid><description>&lt;h3 id="heading">はじめに&lt;/h3>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blogs on Learning Notes</title><link>https://zEttOn86.github.io/blog/</link><description>Recent content in Blogs on Learning Notes</description><generator>Hugo -- gohugo.io</generator><copyright>2019-2020, zEttOn86 - All rights reserved</copyright><lastBuildDate>Sun, 23 Feb 2020 09:42:10 +0900</lastBuildDate><atom:link href="https://zEttOn86.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>GitHub Actionsを使って，HUGOで作ったブログをGitHub Pagesで公開する方法</title><link>https://zEttOn86.github.io/blog/20200223/</link><pubDate>Sun, 23 Feb 2020 09:42:10 +0900</pubDate><guid>https://zEttOn86.github.io/blog/20200223/</guid><description>&lt;h3 id="heading">はじめに&lt;/h3>
+&lt;p>GitHub Actionsを使って，「HUGOのビルド」と「GitHub Pagesへのデプロイ」を自動化する方法をまとめます．&lt;br>
+現在，以下のようにしてHUGOのサイトをGitHub Pagesへ適用しています．&lt;br>
+まず，ローカルリポジトリで記事を書きます．その後，記事などのソースコードを管理するプライベートリポジトリにアップロードします．次に，&lt;code>hugo&lt;/code>コマンドを用いてhtmlなどを生成し，GitHub Pages(&lt;code>&amp;lt;username&amp;gt;.github.io&lt;/code>)にアップロードしています．こうすることでブログのソースコードはプライベートリポジトリとなるようにしています．&lt;/p>
+&lt;figure class="center title-center">
+&lt;img src="https://zEttOn86.github.io/images/blog/20200223/7.png"
+alt="自動化前" width="100%"/>
+&lt;/figure>
+&lt;p>この方法は記事を書く度にhtmlの生成をしたり，ディレクトリの移動をしたりと結構大変です．&lt;br>
+そのため，GitHub Actionsを用いてプライベートリポジトリにあるブログのソースコードをビルドし，GitHub Pages（&lt;code>&amp;lt;username&amp;gt;.github.io&lt;/code>）にアップロードするまでを自動化していこうと思います．&lt;/p>
+&lt;figure class="center title-center">
+&lt;img src="https://zEttOn86.github.io/images/blog/20200223/9.png"
+alt="自動化後" width="100%"/>
+&lt;/figure></description></item><item><title>HUGO + GitHub Pages で作ったブログをGoogle Search Consoleに登録する方法</title><link>https://zEttOn86.github.io/blog/20200114/</link><pubDate>Tue, 14 Jan 2020 00:19:33 +0900</pubDate><guid>https://zEttOn86.github.io/blog/20200114/</guid><description>&lt;h3 id="heading">はじめに&lt;/h3>
 &lt;p>HUGOとGitHub Pagesで作ったブログは，&lt;strong>Google検索&lt;/strong>で&lt;code>site:&amp;lt;自分のブログのURL&amp;gt;&lt;/code>のように検索しても&lt;strong>Google検索&lt;/strong>にはすぐには引っ掛かりません．
 &lt;figure class="center title-center">
 &lt;img src="https://zEttOn86.github.io/images/blog/20200114/1.png"
