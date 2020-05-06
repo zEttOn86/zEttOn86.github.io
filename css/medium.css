@@ -23,7 +23,7 @@ pre {
     border: #E3EDF3 1px solid;
     width: 100%;
     padding: 7px;
-    font-family: monospace, sans-serif;
+    font-family: "メイリオ", 'Meiryo',  monospace, sans-serif;
     font-size: 14px;
     white-space: pre;
     overflow: auto;
@@ -32,6 +32,11 @@ pre {
     line-height: 1.6;
     color: #333;
     margin-bottom: -rem;
+}
+
+body {
+    font-size: 1.2rem;
+    font-family: "メイリオ", "Meiryo", "Times New Roman", -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 
 .mediumnavigation {
@@ -305,7 +310,8 @@ span.post-read-more a:hover {
 
 .mainheading h1.posttitle {
     font-weight: 700;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
 }
 
 .footer {
@@ -325,8 +331,8 @@ span.post-read-more a:hover {
 }
 
 .article-post {
-    font-family: Merriweather;
-    font-size: 1.1rem;
+    /* font-family: Merriweather; */
+    font-size: 1.2rem;
     line-height: 1.84;
     color: rgba(0, 0, 0, .8);
 }
@@ -487,7 +493,7 @@ blockquote {
 ul.tags {
     list-style: none;
     padding-left: 0;
-    margin: 0 0 3rem 0;
+    margin: 0rem 0 1rem 0;
 }
 
 ul.tags li {
@@ -500,6 +506,7 @@ ul.tags li a {
     color: rgba(0, 0, 0, .6);
     border-radius: 3px;
     padding: 5px 10px;
+    /* text-transform: uppercase; */
 }
 
 ul.tags li a:hover {
@@ -680,7 +687,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: "メイリオ", "Meiryo", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .article-post .h1,
@@ -692,10 +699,10 @@ h6 {
     font-weight: 700;
     margin-bottom: 1.5rem;
     padding: 0.4em 0.5em;/*文字の上下 左右の余白*/
-    color: #494949;/*文字色*/
-    background: #effffb;/*背景色*/
-    border-left: solid 5px #00ab6b;/*左線*/
-    border-bottom: solid 3px #d5e4e0;/*下線*/
+    color: #212529;/*文字色*/
+    /* background: #effffb;背景色 */
+    border-left: solid 5px #212529;/*左線*/
+    border-bottom: solid 1px #212529;/*下線*/
 }
 
 .article-post .h4,
@@ -707,10 +714,10 @@ h6 {
     font-weight: 700;
     margin-bottom: 1.5rem;
     padding: 0.1em 0.5em;/*文字の上下 左右の余白*/
-    color: #494949;/*文字色*/
+    color: #212529;/*文字色*/
     /* background: #effffb;背景色 */
     /* border-left: solid 5px #00ab6b;左線 */
-    border-bottom: solid 3px #d5e4e0;/*下線*/
+    border-bottom: solid 1px #666565;/*下線*/
 }
 
 .article-post img.shadow {

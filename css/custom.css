@@ -1,3 +1,7 @@
+
+/* ************************************* */
+/* Start css for sidebar */
+/* ************************************* */
 .sidebar {
     margin-top: 0px;
     margin-bottom: 20px;
@@ -15,15 +19,45 @@
 .sidebar .sidebar-heading h3,
 .sidebar .sidebar-heading h4,
 .sidebar .sidebar-heading h5 {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   /* border-bottom: solid 2px #00ab6b; */
   line-height: 1.1;
   margin-bottom: 0;
   padding-bottom: 0px;
   /* font-size: px; */
   text-transform: none;
+  font-family: "メイリオ", "Meiryo", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
-
+.sidebar .sidebar-heading h1:before,
+.sidebar .sidebar-heading h2:before,
+.sidebar .sidebar-heading h3:before,
+.sidebar .sidebar-heading h4:before,
+.sidebar .sidebar-heading h5:before {
+  border-top: 1px solid;
+  content: "";
+  flex-grow: 1;
+  margin-right: 0.5rem;
+  /* background-color: black; */
+}
+.sidebar .sidebar-heading h1:after,
+.sidebar .sidebar-heading h2:after,
+.sidebar .sidebar-heading h3:after,
+.sidebar .sidebar-heading h4:after,
+.sidebar .sidebar-heading h5:after {
+  border-top: 1px solid;
+  content: "";
+  flex-grow: 1;
+  background-color: black;
+  margin-left: 0.5rem;
+  /* content: '';
+  position: relative;
+  top: 50%;
+  display: inline-block;
+  width: 45px;
+  height: 1px;
+  background-color: black; */
+}
 .sidebar .sidebar-body{
     padding: 0px;
 }
@@ -71,7 +105,7 @@
     border-radius: 0;
     color: rgba(0, 0, 0, .5);
     margin: 5px 5px 5px 0;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     letter-spacing: 0.08em;
     font-weight: 700;
     font-size: 12px;
@@ -108,23 +142,33 @@
     text-align: center;
     pointer-events: none;
 }
+/* ************************************* */
+/* End css for sidebar */
+/* ************************************* */
+
+/* ************************************* */
+/* Start css for READ MORE POST */
+/* ************************************* */
+p#btn {
+  margin: 1rem 1rem;
+}
 
 .btn {
-    font-weight: 700;
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    padding: 6px 12px;
-    font-size: 13px;
-    line-height: 1.42857143;
-    border-radius: 0;
-  }
-  .btn-template-main {
-    color: rgba(0, 0, 0, .5);
-    background-color: #ffffff;
-    border-color: rgba(0, 0, 0, .5);
-  }
-  .btn-template-main:hover,
+  font-weight: 700;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 6px 12px;
+  font-size: 13px;
+  line-height: 1.42857143;
+  border-radius: 0;
+}
+.btn-template-main {
+  color: rgba(0, 0, 0, .5);
+  background-color: #ffffff;
+  border-color: rgba(0, 0, 0, .5);
+}
+.btn-template-main:hover,
 .btn-template-main:focus,
 .btn-template-main:active,
 .btn-template-main.active,
@@ -168,6 +212,9 @@ fieldset[disabled] .btn-template-main.active {
   color: #ffffff;
   border-color: #00ab6b;
 }
+/* ************************************* */
+/* END css for READ MORE POST */
+/* ************************************* */
 
 span.lastmod{
   display: inline-block;
@@ -182,17 +229,22 @@ span.lastmod li{
   margin-right: 1rem;
 }
 
+/* ************************************* */
+/* Start css for TOC */
+/* ************************************* */
 #TableOfContents > ul {
   font-size: smaller;
   border-radius: 0.5em;
   border: solid 1px lightgray;
   padding: 0.5em 1em;
   line-height: 2;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
 }
 #TableOfContents > ul:before {
   content: "目次";
   font-weight: bolder;
+  font-size: 1.5rem;
+  color: #212529;
 }
 #TableOfContents ul {
   list-style-type: none;
@@ -209,6 +261,9 @@ span.lastmod li{
   display: block;
   border-bottom: dashed 1px lightgray;
 }
+/* ************************************* */
+/* End css for TOC */
+/* ************************************* */
 
 .thumbnail_center {
   display: block;
@@ -216,3 +271,44 @@ span.lastmod li{
   margin-right: auto;
   width: 70%;
 }
+
+/* ************************************* */
+/* start css for post_style.html */
+/* ************************************* */
+.post-style {
+  margin: 0.5rem 0;
+}
+
+.post-style .post-text p {
+  margin: 1rem 0 0.2rem 0;
+}
+
+@media screen and (min-width: 480px){
+  /* For iphone */
+  .post-style .post-thumbnail {
+    text-align: center;
+  }
+  .post-style .post-thumbnail .img-fluid{
+    height: auto;
+    max-width: 75%;
+    object-fit: inherit;
+  }  
+}
+
+@media screen and (min-width: 768px){
+  /* For PC or tablet */
+  .post-style .post-thumbnail {
+    align-items: center;
+    display: flex;
+  }
+  .post-style .post-thumbnail .img-fluid{
+    height: auto;
+    max-width: 100%;
+    object-fit: inherit;
+  }  
+}
+
+
+/* ************************************* */
+/* end css for post_style.html */
+/* ************************************* */

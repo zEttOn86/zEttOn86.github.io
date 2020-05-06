@@ -1,36 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Learning Notes</title><link>https://zEttOn86.github.io/</link><description>Recent content on Learning Notes</description><generator>Hugo -- gohugo.io</generator><copyright>2019-2020, zEttOn86 - All rights reserved</copyright><lastBuildDate>Sun, 23 Feb 2020 09:42:10 +0900</lastBuildDate><atom:link href="https://zEttOn86.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>GitHub Actionsを使って，HUGOで作ったブログをGitHub Pagesで公開する方法</title><link>https://zEttOn86.github.io/blog/20200223/</link><pubDate>Sun, 23 Feb 2020 09:42:10 +0900</pubDate><guid>https://zEttOn86.github.io/blog/20200223/</guid><description>&lt;h3 id="heading">はじめに&lt;/h3>
-&lt;p>GitHub Actionsを使って，「HUGOのビルド」と「GitHub Pagesへのデプロイ」を自動化する方法をまとめます．&lt;br>
-現在，以下のようにしてHUGOのサイトをGitHub Pagesへ適用しています．&lt;br>
-まず，ローカルリポジトリで記事を書きます．その後，記事などのソースコードを管理するプライベートリポジトリにアップロードします．次に，&lt;code>hugo&lt;/code>コマンドを用いてhtmlなどを生成し，GitHub Pages(&lt;code>&amp;lt;username&amp;gt;.github.io&lt;/code>)にアップロードしています．こうすることでブログのソースコードはプライベートリポジトリとなるようにしています．&lt;/p>
-&lt;figure class="center title-center">
-&lt;img src="https://zEttOn86.github.io/images/blog/20200223/7.png"
-alt="自動化前" width="100%"/>
-&lt;/figure>
-&lt;p>この方法は記事を書く度にhtmlの生成をしたり，ディレクトリの移動をしたりと結構大変です．&lt;br>
-そのため，GitHub Actionsを用いてプライベートリポジトリにあるブログのソースコードをビルドし，GitHub Pages（&lt;code>&amp;lt;username&amp;gt;.github.io&lt;/code>）にアップロードするまでを自動化していこうと思います．&lt;/p>
-&lt;figure class="center title-center">
-&lt;img src="https://zEttOn86.github.io/images/blog/20200223/9.png"
-alt="自動化後" width="100%"/>
-&lt;/figure></description></item><item><title>HUGO + GitHub Pages で作ったブログをGoogle Search Consoleに登録する方法</title><link>https://zEttOn86.github.io/blog/20200114/</link><pubDate>Tue, 14 Jan 2020 00:19:33 +0900</pubDate><guid>https://zEttOn86.github.io/blog/20200114/</guid><description>&lt;h3 id="heading">はじめに&lt;/h3>
-&lt;p>HUGOとGitHub Pagesで作ったブログは，&lt;strong>Google検索&lt;/strong>で&lt;code>site:&amp;lt;自分のブログのURL&amp;gt;&lt;/code>のように検索しても&lt;strong>Google検索&lt;/strong>にはすぐには引っ掛かりません．
-&lt;figure class="center title-center">
-&lt;img src="https://zEttOn86.github.io/images/blog/20200114/1.png"
-alt="検索に引っ掛からない" width="100%"/>
-&lt;/figure>
-&lt;/p>
-&lt;p>そこで，作成したブログを&lt;strong>Google検索&lt;/strong>で引っ掛かるようにするために，Google Search Consoleに登録する方法をまとめます．&lt;/p></description></item><item><title>HUGO + GitHub Pages を用いたウェブサイトの構築方法</title><link>https://zEttOn86.github.io/blog/20200110/</link><pubDate>Fri, 10 Jan 2020 19:32:21 +0900</pubDate><guid>https://zEttOn86.github.io/blog/20200110/</guid><description>&lt;h3 id="heading">はじめに&lt;/h3>
-&lt;p>HUGOとGithub Pagesを用いたウェブサイトの構築方法についてまとめていきたいと思います．&lt;/p>
-&lt;h3 id="heading-1">開発環境&lt;/h3>
-&lt;ul>
-&lt;li>Windows10 Pro&lt;/li>
-&lt;li>CPU: Core i7-3610QM @2.30GHz&lt;/li>
-&lt;li>RAM: 8GB&lt;/li>
-&lt;li>Chocolatey v0.10.15&lt;/li>
-&lt;li>Hugo Static Site Generator v0.59.1-D5DAB232 windows/amd64 BuildDate: 2019-10-31T15:22:43Z&lt;/li>
-&lt;/ul></description></item><item><title>はじめに</title><link>https://zEttOn86.github.io/blog/20191231/</link><pubDate>Tue, 31 Dec 2019 19:46:15 +0900</pubDate><guid>https://zEttOn86.github.io/blog/20191231/</guid><description>&lt;h3 id="heading">ブログを始めました&lt;/h3>
-&lt;p>ただ勉強するだけではもったいないと感じたので，学んだことや感想などを書いていきたいです．&lt;/p>
-&lt;h3 id="heading-1">実装したい機能&lt;/h3>
-&lt;p>今後は，以下のような機能を追加する予定です．&lt;/p></description></item><item><title>プライバシーポリシー</title><link>https://zEttOn86.github.io/static/privacy-policy/</link><pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate><guid>https://zEttOn86.github.io/static/privacy-policy/</guid><description>当サイト利用について 本プライバシーポリシーは，このWebサイト(https://zEttOn86.github.io/）（以下，「当サイト」とします．)の各種サービス（当サイトによる情報提供，各種お問合せの受付等）において，当サイトの訪問者（以下，「訪問者」とします．）の個人情報もしくはそれに準ずる情報を取り扱う際に，当サイトが遵守する方針を示したものです．
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Learning Notes</title><link>https://zEttOn86.github.io/</link><description>Recent content on Learning Notes</description><generator>Hugo -- gohugo.io</generator><copyright>2019-2020, zEttOn86 - All rights reserved</copyright><lastBuildDate>Sun, 23 Feb 2020 09:42:10 +0900</lastBuildDate><atom:link href="https://zEttOn86.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>GitHub Actionsを使って，HUGOで作ったブログをGitHub Pagesで公開する方法</title><link>https://zEttOn86.github.io/blog/20200223/</link><pubDate>Sun, 23 Feb 2020 09:42:10 +0900</pubDate><guid>https://zEttOn86.github.io/blog/20200223/</guid><description>&lt;p>GitHub Actionsを使って，「HUGOのビルド」と「GitHub Pagesへのデプロイ」を自動化する方法をまとめます．&lt;/p></description></item><item><title>HUGO + GitHub Pages で作ったブログをGoogle Search Consoleに登録する方法</title><link>https://zEttOn86.github.io/blog/20200114/</link><pubDate>Tue, 14 Jan 2020 00:19:33 +0900</pubDate><guid>https://zEttOn86.github.io/blog/20200114/</guid><description>&lt;p>HUGOとGitHub Pagesで作ったブログをGoogle Search Consoleに登録する方法をまとめます。&lt;/p></description></item><item><title>HUGO + GitHub Pages を用いたウェブサイトの構築方法</title><link>https://zEttOn86.github.io/blog/20200110/</link><pubDate>Fri, 10 Jan 2020 19:32:21 +0900</pubDate><guid>https://zEttOn86.github.io/blog/20200110/</guid><description>&lt;p>HUGOとGithub Pagesを用いたウェブサイトの構築方法についてまとめていきたいと思います．&lt;/p></description></item><item><title>ブログを始めました</title><link>https://zEttOn86.github.io/blog/20191231/</link><pubDate>Tue, 31 Dec 2019 19:46:15 +0900</pubDate><guid>https://zEttOn86.github.io/blog/20191231/</guid><description>&lt;p>ただ勉強するだけではもったいないと感じたので，学んだことや感想などを書いていきたいです．&lt;/p></description></item><item><title>プライバシーポリシー</title><link>https://zEttOn86.github.io/static/privacy-policy/</link><pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate><guid>https://zEttOn86.github.io/static/privacy-policy/</guid><description>当サイト利用について 本プライバシーポリシーは，このWebサイト(https://zEttOn86.github.io/）（以下，「当サイト」とします．)の各種サービス（当サイトによる情報提供，各種お問合せの受付等）において，当サイトの訪問者（以下，「訪問者」とします．）の個人情報もしくはそれに準ずる情報を取り扱う際に，当サイトが遵守する方針を示したものです．
 基本方針 当サイトは，個人情報の重要性を認識し，個人情報を保護することが社会的責務であると考え，個人情報に関する法令を遵守し，当サイトで取扱う個人情報の取得，利用，管理を適正に行います．当サイトで収集した情報は，利用目的の範囲内で適切に取り扱います．
 適用範囲 本プライバシーポリシーは，当サイトにおいてのみ適用されます．
 個人情報の取得と利用目的 当サイトで取得する訪問者の個人情報と利用目的等は下記の通りです．
@@ -39,7 +7,25 @@ alt="検索に引っ掛からない" width="100%"/>
 Cookieによる個人情報の取得 当サイトは，訪問者のコンピュータにCookieを送信することがあります．
 Cookie（クッキー）とは，ウェブサイトを利用したときに，ブラウザとサーバーとの間で送受信した利用履歴や入力内容などを，訪問者のコンピュータにファイルとして保存しておく仕組みです．
 利用目的について 訪問者の当サイト閲覧時の利便性を高めるためです．
-たとえば，次回同じページにアクセスするとCookieの情報を使って，ページの運営者は訪問者ごとに表示を変えることができます．</description></item><item><title>プロフィール</title><link>https://zEttOn86.github.io/about/</link><pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate><guid>https://zEttOn86.github.io/about/</guid><description>目的 ただ勉強していくのはもったいないと感じたので，勉強したことや思ったことなどを書いていこうと思います．
+たとえば，次回同じページにアクセスするとCookieの情報を使って，ページの運営者は訪問者ごとに表示を変えることができます．
+たとえばあるサイトを利用していて，初回はログインパスワードを入力する画面が表示されたけど，2回目以降はログイン画面は表示されずにアクセスできた，という経験ありませんか？それはCookieによるものです．
+訪問者がブラウザの設定でCookieの送受信を許可している場合，ウェブサイトは，訪問者のブラウザからCookieキーを取得できます．
+なお，訪問者のブラウザはプライバシー保護のため，そのウェブサイトのサーバーが送受信したCookieのみを送信します．
+第三者によるCookie情報の取得について 当サイトでは，グーグル株式会社やヤフー株式会社などをはじめとする第三者から配信される広告が掲載される場合があり，これに関連して当該第三者が訪問者のCookie情報等を取得して，利用している場合があります．
+当該第三者によって取得されたCookie情報等は，当該第三者のプライバシーポリシーに従って取り扱われます．
+第三者へのCookie情報等の広告配信の利用停止について
+訪問者は，当該第三者のウェブサイト内に設けられたオプトアウト（個人情報を第三者に提供することを停止すること）ページにアクセスして，当該第三者によるCookie情報等の広告配信への利用を停止することができます．
+Cookie情報の送受信の許可・拒否について 訪問者は，Cookieの送受信に関する設定を「すべてのCookieを許可する」，「すべてのCookieを拒否する」，「Cookieを受信したらユーザーに通知する」などから選択できます．設定方法は，ブラウザにより異なります．Cookieに関する設定方法は，お使いのブラウザの「ヘルプ」メニューでご確認ください．
+すべてのCookieを拒否する設定を選択されますと，認証が必要なサービスを受けられなくなる等，インターネット上の各種サービスの利用上，制約を受ける場合がありますのでご注意ください．
+個人情報の管理 当サイトは，取得した個人情報を，お問い合わせ頂いた内容についての確認・相談，情報提供のためのメール送信（返信）の目的以外には使用しません．また知り得た個人情報を第三者に開示することは，警察・裁判所など公的機関からの書面をもった請求以外に一切利用致しません．
+個人情報の第三者への提供 当サイトは，訪問者からご提供いただいた個人情報を，訪問者本人の同意を得ることなく第三者に提供することはありません．また，今後第三者提供を行うことになった場合には，提供する情報と提供目的などを提示し，訪問者から同意を得た場合のみ第三者提供を行います．
+未成年の個人情報 未成年者が当サイトにコメントをした場合は必ず親権者の同意を得るものとし，コメントやお問い合わせをされた時点で，当プライバシーポリシーに対して親権者の同意があるものとみなします．
+アクセス解析ツールについて 当サイトでは，Googleによるアクセス解析ツール「Googleアナリティクス」を利用しています．
+このGoogleアナリティクスはアクセス情報の収集のためにCookieを使用しています．このアクセス情報は匿名で収集されており，個人を特定するものではありません．
+この機能はCookieを無効にすることで収集を拒否することが出来ますので，お使いのブラウザの設定をご確認ください．
+Googleアナリティクスの利用規約に関して確認したい場合は，ここをクリックしてください．また,「ユーザーが Google パートナーのサイトやアプリを使用する際の Google によるデータ使用」に関して確認したい場合は，ここをクリックしてください．
+プライバシーポリシーの変更について 当サイトは，個人情報に関して適用される日本の法令を遵守するとともに，本プライバシーポリシーの内容を適宜見直しその改善に努めます．修正された最新のプライバシーポリシーは常に本ページにて開示されます．
+2020/01/01　策定</description></item><item><title>プロフィール</title><link>https://zEttOn86.github.io/about/</link><pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate><guid>https://zEttOn86.github.io/about/</guid><description>目的 ただ勉強していくのはもったいないと感じたので，勉強したことや思ったことなどを書いていこうと思います．
 投稿内容は私個人の意見であり，所属する組織などを代表するものではありません．
 開発環境 以下の環境で，ブログの執筆などを行っています．
 Windows 10 Pro CPU: Core i7-3610QM @2.30GHz RAM: 8GB Hugo Static Site Generator v0.59.1-D5DAB232 windows/amd64 BuildDate: 2019-10-31T15:22:43Z</description></item><item><title>免責事項</title><link>https://zEttOn86.github.io/static/disclaimers/</link><pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate><guid>https://zEttOn86.github.io/static/disclaimers/</guid><description>当サイト利用について このWebサイト( https://zEttOn86.github.io/ ) (以下，当サイトとします．)における免責事項は，下記の通りです．
