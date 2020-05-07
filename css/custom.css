@@ -299,7 +299,8 @@ span.lastmod li{
   /* For PC or tablet */
   .post-style .post-thumbnail {
     align-items: center;
-    display: flex;
+    vertical-align: middle;
+    display: inline-block;
   }
   .post-style .post-thumbnail .img-fluid{
     height: auto;
