@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://zEttOn86.github.io/sitemap.xml

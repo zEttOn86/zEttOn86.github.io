@@ -309,7 +309,68 @@ span.lastmod li{
   }  
 }
 
-
 /* ************************************* */
 /* end css for post_style.html */
+/* ************************************* */
+/* ************************************* */
+/* Start css for breadcrmbs.html */
+/* ************************************* */
+.breadcrumb {
+  background: none;
+  color: #121416;
+}
+
+ol.breadcrumb {
+  border-bottom: 1px solid rgba(0, 0, 0, .125);
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-bottom: 27px;
+  padding: 0rem;
+}
+.article-breadcrumbs ol.breadcrumb{
+  /* for article */
+  border-bottom: none;
+  font-weight: 700;
+  font-size: 0.8rem;
+  /* margin-bottom: 27px; */
+  padding: 0rem;
+  margin: 0rem;
+}
+.article-breadcrumbs .section-title span {
+  /* for article */
+  border-bottom: none;
+  display: inline-block;
+  padding: 0rem;
+  margin: 0rem;
+}
+
+.breadcrumb li {
+  display: inline;
+}
+.breadcrumb li:last-child {
+  margin-left: 1em;
+}
+
+.breadcrumb a{
+  color: #212529;
+}
+
+.breadcrumb li:first-child a:before {
+  font-family: "Font Awesome 5 Free";
+  content: '\f015  ';
+  font-size: 1.1em;
+  color: #212529;
+}
+
+.article-breadcrumbs .breadcrumb .breadcrumb-item.active a{
+  border-bottom: 1px solid rgba(0, 0, 0, .44);
+}
+
+.breadcrumb-item+.breadcrumb-item:before{
+  content: ">";
+}
+
+/* ************************************* */
+/* End css for breadcrmbs.html */
 /* ************************************* */
