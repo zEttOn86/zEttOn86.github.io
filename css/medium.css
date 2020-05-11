@@ -499,6 +499,7 @@ ul.tags {
 ul.tags li {
     display: inline-block;
     font-size: 0.9rem;
+    padding-right: 0.5rem;
 }
 
 ul.tags li a {
