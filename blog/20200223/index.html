@@ -16,7 +16,7 @@
 <span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">12</span>...
 <span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">13</span>└─themes</code></pre></div></p><p>そして，<code>gh-pages.yml</code>に以下を追加します．編集する場所は，29行目，41,42行目です．</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1</span>name: github pages
 <span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2</span>
-<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3</span><span style=color:#75715e># PushされたときにGitHub Actionsを実行</span>
+<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3</span><span style=color:#75715e># PushされたときにGitHub Actionsを実行</span>
 <span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4</span>on:
 <span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 5</span>  push:
 <span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 6</span>    branches:
@@ -24,35 +24,35 @@
 <span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 8</span>
 <span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 9</span>jobs:
 <span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">10</span>  build-deploy:
-<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">11</span>  　<span style=color:#75715e># Ubuntu18.04で実行</span>
+<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">11</span>  　<span style=color:#75715e># Ubuntu18.04で実行</span>
 <span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">12</span>    runs-on: ubuntu<span style=color:#ae81ff>-18.04</span>
 <span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">13</span>    steps:
-<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">14</span>      <span style=color:#75715e># リポジトリをCheckout</span>
-<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">15</span>      - uses: actions/checkout@v1  <span style=color:#75715e># v2 does not have submodules option now</span>
+<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">14</span>      <span style=color:#75715e># リポジトリをCheckout</span>
+<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">15</span>      - uses: actions/checkout@v1  <span style=color:#75715e># v2 does not have submodules option now</span>
 <span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">16</span>        with:
 <span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">17</span>          submodules: <span style=color:#66d9ef>true</span>
 <span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">18</span>      
-<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">19</span>      <span style=color:#75715e># Hugoのインストール</span>
+<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">19</span>      <span style=color:#75715e># Hugoのインストール</span>
 <span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">20</span>      - name: Setup Hugo
 <span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">21</span>        uses: peaceiris/actions-hugo@v2
 <span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">22</span>        with:
 <span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">23</span>          hugo-version: <span style=color:#e6db74>&#39;0.62.0&#39;</span>
-<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">24</span>          <span style=color:#75715e># extended: true</span>
+<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">24</span>          <span style=color:#75715e># extended: true</span>
 <span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">25</span>    　
-<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">26</span>      <span style=color:#75715e># GitHub Pages(&lt;username&gt;.github.io)をクローン</span>
+<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">26</span>      <span style=color:#75715e># GitHub Pages(&lt;username&gt;.github.io)をクローン</span>
 <span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">27</span>      - name: Setup public repo
 <span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">28</span>        run: <span style=color:#e6db74>|
-</span><span style=display:block;width:100%;background-color:#3c3d38><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">29</span><span style=color:#e6db74>         </span><span style=color:#e6db74> </span><span style=color:#e6db74>export USERNAME=&#34;&lt;YourUserName&gt;&#34;</span>
+</span><span style=display:block;width:100%;background-color:#3c3d38><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">29</span><span style=color:#e6db74>         </span><span style=color:#e6db74> </span><span style=color:#e6db74>export USERNAME=&#34;&lt;YourUserName&gt;&#34;</span>
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">30</span>          git clone --depth <span style=color:#ae81ff>1</span> https://${USERNAME}:${{ secrets.MY_GITHUB_ACCESS_TOKEN }}@github.com/${USERNAME}/${USERNAME}.github.io.git public
 <span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">31</span>      
-<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">32</span>      <span style=color:#75715e># htmlの生成</span>
+<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">32</span>      <span style=color:#75715e># htmlの生成</span>
 <span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">33</span>      - name: Build
 <span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">34</span>        run: hugo --gc --minify --cleanDestinationDir
 <span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">35</span>      
-<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">36</span>      <span style=color:#75715e># GitHub PagesへのPush</span>
+<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">36</span>      <span style=color:#75715e># GitHub PagesへのPush</span>
 <span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">37</span>      - name: Deploy
 <span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">38</span>        run: <span style=color:#e6db74>|
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">39</span><span style=color:#e6db74>         </span><span style=color:#e6db74> </span><span style=color:#e6db74>export MSG=`git log --format=%B -n 1 HEAD`</span>
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">39</span><span style=color:#e6db74>         </span><span style=color:#e6db74> </span><span style=color:#e6db74>export MSG=`git log --format=%B -n 1 HEAD`</span>
 <span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">40</span>          cd public
 <span style=display:block;width:100%;background-color:#3c3d38><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">41</span>          git config --local user.name <span style=color:#e6db74>&#34;&lt;YourUserName&gt;&#34;</span>
 </span><span style=display:block;width:100%;background-color:#3c3d38><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">42</span>          git config --local user.email <span style=color:#e6db74>&#34;&lt;YourUserEmail@EMAIL.COM&gt;&#34;</span>
@@ -60,10 +60,10 @@
 <span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">44</span>          git commit -m <span style=color:#e6db74>&#34;${MSG}&#34;</span>
 <span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">45</span>          git push origin master</code></pre></div><p>29行目には，<code>&lt;YourUserName></code>の部分に自身のGitHubアカウントを入力します．<div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">27</span>    - name: Setup public repo
 <span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">28</span>        run: <span style=color:#e6db74>|
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">29</span><span style=color:#e6db74>         </span><span style=color:#e6db74> </span><span style=color:#e6db74>export USERNAME=&#34;&lt;YourUserName&gt;&#34;</span>
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">29</span><span style=color:#e6db74>         </span><span style=color:#e6db74> </span><span style=color:#e6db74>export USERNAME=&#34;&lt;YourUserName&gt;&#34;</span>
 <span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">30</span>          git clone --depth <span style=color:#ae81ff>1</span> https://${USERNAME}:${{ secrets.MY_GITHUB_ACCESS_TOKEN }}@github.com/${USERNAME}/${USERNAME}.github.io.git public</code></pre></div></p><p>41，42行目には，<code>&lt;YourUserName></code>にGitHubアカウント，<code>&lt;YourUserEmail>@EMAIL.COM</code>にメールアドレスを入力します．<div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">37</span>    - name: Deploy
 <span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">38</span>        run: <span style=color:#e6db74>|
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">39</span><span style=color:#e6db74>         </span><span style=color:#e6db74> </span><span style=color:#e6db74>export MSG=`git log --format=%B -n 1 HEAD`</span>
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">39</span><span style=color:#e6db74>         </span><span style=color:#e6db74> </span><span style=color:#e6db74>export MSG=`git log --format=%B -n 1 HEAD`</span>
 <span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">40</span>          cd public
 <span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">41</span>          git config --local user.name <span style=color:#e6db74>&#34;&lt;YourUserName&gt;&#34;</span>
 <span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">42</span>          git config --local user.email <span style=color:#e6db74>&#34;&lt;YourUserEmail&gt;@EMAIL.COM&#34;</span>
