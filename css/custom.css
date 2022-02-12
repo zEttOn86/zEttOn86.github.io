@@ -145,7 +145,21 @@
 /* ************************************* */
 /* End css for sidebar */
 /* ************************************* */
-
+/* ************************************* */
+/* Start css for navbar */
+/* ref. 
+   https://ja.stackoverflow.com/questions/51281/bootstrap4%E3%81%AB%E3%81%8A%E3%81%84%E3%81%A6%E3%83%8F%E3%83%B3%E3%83%90%E3%83%BC%E3%82%AC%E3%83%BC%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E3%81%AE%E8%89%B2%E5%A4%89%E6%9B%B4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6
+/* ************************************* */
+.custom-hamburger .navbar-toggler-icon{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(245, 245, 245, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.custom-hamburger .navbar-toggler{
+  color: rgba(0,0,0,.5);
+  border-color: rgba(245, 245, 245, 0.1);
+}
+/* ************************************* */
+/* End css for navbar */
+/* ************************************* */
 /* ************************************* */
 /* Start css for READ MORE POST */
 /* ************************************* */
