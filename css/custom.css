@@ -27,7 +27,7 @@
   padding-bottom: 0px;
   /* font-size: px; */
   text-transform: none;
-  font-family: "メイリオ", "Meiryo", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Noto Sans", "Noto Sans JP", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 .sidebar .sidebar-heading h1:before,
 .sidebar .sidebar-heading h2:before,
@@ -388,3 +388,4 @@ ol.breadcrumb {
 /* ************************************* */
 /* End css for breadcrmbs.html */
 /* ************************************* */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+JP&display=swap');
