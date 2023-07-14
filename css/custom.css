@@ -169,7 +169,7 @@ p#btn {
 
 .btn {
   font-weight: 700;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Noto Sans", "Noto Sans JP", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   padding: 6px 12px;
@@ -371,7 +371,7 @@ ol.breadcrumb {
 }
 
 .breadcrumb li:first-child a:before {
-  font-family: "Font Awesome 5 Free";
+  font-family: "Noto Sans", "Noto Sans JP", "Font Awesome 5 Free";
   content: '\f015  ';
   font-size: 1.1em;
   color: #212529;
