@@ -293,6 +293,11 @@ span.lastmod li{
   margin: 0.5rem 0 1.2rem 0;
 }
 
+/* https://qiita.com/yama-t/items/da7740769cfc0f8446a0 */
+.post-style + .post-style {
+  margin-top: 60px;
+}
+
 .post-style .post-text p {
   margin: 1rem 0 0.2rem 0;
 }
