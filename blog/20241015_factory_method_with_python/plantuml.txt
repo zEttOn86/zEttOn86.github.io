@@ -1,0 +1,27 @@
+
+```puml
+@startuml
+top to bottom direction
+
+file "main.py" {
+    [main()]
+}
+
+file "_factory.py" {
+    [create_beer()]
+}
+
+file "_registry.py" {
+    [beer_entry_point()] --> [_beer_entry_points = {}] : 参照
+    [register_beer()] -up->  [_beer_entry_points = {}] : 参照
+}
+
+[main()] -> [create_beer()]: 呼び出し
+[create_beer()] -> [beer_entry_point()]: 呼び出し
+rectangle "ビールを作成する関数" {
+    [super_dry()] -> [register_beer()]: 呼び出し（デコレータ）
+
+    [sapporo()] -> [register_beer()]: 呼び出し（デコレータ）
+}
+@enduml
+```
